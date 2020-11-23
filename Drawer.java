@@ -1,5 +1,5 @@
 import java.util.Scanner;
-// socks jacket shirt trousers pants
+
 
 public class Drawer
 {
@@ -124,6 +124,6 @@ public class Drawer
 
     public void main(String[] args)
     {
-        Drawer d = new Drawer();
+        Drawer d = new Drawer(); // NOT DONE YET
     }
 }
