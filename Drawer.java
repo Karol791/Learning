@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Drawer
 {
-        int[] clothes;
+        int[] clothes = new int [5];
 
 
         public Drawer()
@@ -43,7 +43,7 @@ public class Drawer
 
                 }
             }
-            scan.close();
+            
             System.out.println("Clothes added!");
         }
 
@@ -89,29 +89,30 @@ public class Drawer
                 {
                     System.out.println("Clothes added!");
                 }
-                scan.close();
+                
             }
         }
         void showClothes(Drawer d)
         {
+            String y  = "You have ";
             for(int i = 0; i < 5; i++)
             {
                 switch(i)
                 {
                     case 0:
-                        System.out.println("You have "+ d.clothes[i] + " socks in your drawer");
+                        System.out.println(y + d.clothes[i] + " socks in your drawer");
                     break;
                     case 1:
-                        System.out.println("You have "+ d.clothes[i] + " jackets in your drawer");
+                        System.out.println(y+ d.clothes[i] + " jackets in your drawer");
                         break;
                     case 2:
-                        System.out.println("You have "+ d.clothes[i] + " shirts in your drawer");
+                        System.out.println(y+ d.clothes[i] + " shirts in your drawer");
                         break;
                     case 3:
-                        System.out.println("You have "+ d.clothes[i] + " trousers in your drawer");
+                        System.out.println(y+ d.clothes[i] + " trousers in your drawer");
                         break;
                     case 4:
-                        System.out.println("You have "+ d.clothes[i] + " panties in your drawer");
+                        System.out.println(y+ d.clothes[i] + " panties in your drawer");
                     break;
                     default:
                     break;
@@ -122,8 +123,21 @@ public class Drawer
 
 
 
-    public void main(String[] args)
+    public static void main(String[] args)
     {
-        Drawer d = new Drawer(); // NOT DONE YET
+        Drawer d = new Drawer(); 
+        d.showClothes(d);
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Do you want to add more clothes? Type 'y' if you do type 'n' if you don't.");
+        String dou = scan.nextLine();
+        if(dou.equals("y"))
+        {
+            System.out.println("Which cloth do you want to add?\n 1 - Socks \n 2 - jacket \n 3 - Shirt \n 4 - trousers \n 5 - pants");
+            int cloth = scan.nextInt();
+            System.out.println("How much do you want to add?");
+            int howMuch = scan.nextInt();
+            d.addClothes(d, cloth, howMuch);
+        }
+        scan.close();
     }
 }
