@@ -1,0 +1,12 @@
+C:\Users\kmaje\source\repos\trening2\trening2\bin\Debug\netcoreapp3.1\trening2.exe
+C:\Users\kmaje\source\repos\trening2\trening2\bin\Debug\netcoreapp3.1\trening2.deps.json
+C:\Users\kmaje\source\repos\trening2\trening2\bin\Debug\netcoreapp3.1\trening2.runtimeconfig.json
+C:\Users\kmaje\source\repos\trening2\trening2\bin\Debug\netcoreapp3.1\trening2.runtimeconfig.dev.json
+C:\Users\kmaje\source\repos\trening2\trening2\bin\Debug\netcoreapp3.1\trening2.dll
+C:\Users\kmaje\source\repos\trening2\trening2\bin\Debug\netcoreapp3.1\trening2.pdb
+C:\Users\kmaje\source\repos\trening2\trening2\obj\Debug\netcoreapp3.1\trening2.AssemblyInfoInputs.cache
+C:\Users\kmaje\source\repos\trening2\trening2\obj\Debug\netcoreapp3.1\trening2.AssemblyInfo.cs
+C:\Users\kmaje\source\repos\trening2\trening2\obj\Debug\netcoreapp3.1\trening2.csproj.CoreCompileInputs.cache
+C:\Users\kmaje\source\repos\trening2\trening2\obj\Debug\netcoreapp3.1\trening2.dll
+C:\Users\kmaje\source\repos\trening2\trening2\obj\Debug\netcoreapp3.1\trening2.pdb
+C:\Users\kmaje\source\repos\trening2\trening2\obj\Debug\netcoreapp3.1\trening2.genruntimeconfig.cache

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "trening1": {
+      "commandName": "Project",
+      "commandLineArgs": "arg1 arg2 12"
+    }
+  }
+}
