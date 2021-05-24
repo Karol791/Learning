@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_4_2", "lab_4_2.csproj", "{E27C66E3-30EE-456E-A9EE-FC37C471412E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOsoba", "..\TestOsoba\TestOsoba.csproj", "{78ADAAC5-8476-485B-BE8C-69A8DFAB789B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E27C66E3-30EE-456E-A9EE-FC37C471412E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E27C66E3-30EE-456E-A9EE-FC37C471412E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E27C66E3-30EE-456E-A9EE-FC37C471412E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E27C66E3-30EE-456E-A9EE-FC37C471412E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78ADAAC5-8476-485B-BE8C-69A8DFAB789B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78ADAAC5-8476-485B-BE8C-69A8DFAB789B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78ADAAC5-8476-485B-BE8C-69A8DFAB789B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78ADAAC5-8476-485B-BE8C-69A8DFAB789B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8E174F2-F78A-4609-A631-2F7EB7443D09}
+	EndGlobalSection
+EndGlobal
